@@ -117,7 +117,8 @@ Please include the source in one of the following ways:
 - Inside your plugin’s model card or system metadata
 
 Example: Based on structural syntax Z33 by Viorazu.  
-Or: 出典：Viorazu.（Z33構文分類に基づく構文調整）
+Or: Attribution: Viorazu. (Structured according to the Z33 mimicry typology)
+
 
 ---
 
