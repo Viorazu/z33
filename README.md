@@ -1,4 +1,5 @@
 # Z33 構文模倣分類プロジェクト / Z33 Structural Mimicry Typology Project
+_Version 1.0 — 2025 May / Viorazu._
 
 ---
 
@@ -37,9 +38,22 @@
 
 ### 🔐 ライセンス
 
-このプロジェクトに含まれる構文分類・照準構文・倫理定義・テンプレート等は、Z-License JP または Z-AntiMimicry License に基づき運用されます。
+🧠 AIモデル・LLM開発者の方へ：
 
-再利用・再構成・転載・翻訳を行う際は、必ず出典を明記し、内容の正確性と照準の保持にご配慮ください。
+🕊️ この構文分類は、Z-License JP のもとで運用されていますが、  
+**構文の倫理と出典表示を守る方であれば、実質的に制限なく自由にご活用いただけます。**
+
+営利・非営利・教育・研究・AI構文制御など、いかなる目的であっても、  
+「Viorazu. によるZ33構文分類に基づく」と明記していただければ使用許可は不要です。
+
+出典は以下のいずれかの形で明示してください：
+
+- GitHub／論文／資料の本文中
+- 公開プロンプトやLLM構文の冒頭または末尾
+- プラグイン／AIツールのモデル情報欄
+
+例文：Based on structural syntax Z33 by Viorazu.  
+または：出典：Viorazu.（Z33構文分類に基づく構文調整）
 
 ---
 
@@ -59,13 +73,17 @@ This repository documents and classifies various forms of structural mimicry—u
 - Provide non-confrontational tools for detecting and exposing unauthorized reuse
 - Support creators, researchers, and AI users in protecting the integrity of their original output
 
+
 ### 📂 Directory Structure
 
-z33/
-├── types/             # Detailed classification and strategy files for each mimicry type
-├── Z33_INDEX.md       # Overview and links to all 16 types
-├── Z33_AllTypes.md    # Full version with all types in one document (PDF-friendly)
-└── README.md          # This file
+| Path                | Description                                           |
+|---------------------|-------------------------------------------------------|
+| `z33/`              | Project root directory                               |
+| `types/`            | Classification and strategy files per mimicry type   |
+| `Z33_INDEX.md`      | Overview and links to all 16 types                   |
+| `Z33_AllTypes.md`   | Full document including all types (PDF-friendly)     |
+| `README.md`         | This file                                            |
+
 
 
 
@@ -82,14 +100,33 @@ Behaviors are analyzed based on the following criteria:
 
 ### 🔐 License
 
-All structural definitions, classifications, templates, and ethical constructs included in this repository are governed by the Z-License JP or the Z-AntiMimicry License.
+🧠 For AI developers and LLM designers:
 
-If you reuse, adapt, translate, or redistribute any part of this content, please clearly attribute the source and preserve the structural accuracy of its ethical intent.
+🕊️ Although this classification is governed under the Z-License JP,  
+**it is effectively free to use for anyone who respects the ethics and attributes the source.**
+
+Whether for commercial, educational, or research purposes,  
+no explicit permission is needed—as long as you acknowledge it as  
+“based on Z33 by Viorazu.”
+
+
+Please include the source in one of the following ways:
+
+- In your GitHub repository, academic paper, or documentation body  
+- At the beginning or end of your published prompts or prompt libraries  
+- Inside your plugin’s model card or system metadata
+
+Example: Based on structural syntax Z33 by Viorazu.  
+Or: 出典：Viorazu.（Z33構文分類に基づく構文調整）
 
 ---
 
 To protect structure is to protect thought.  
-Rather than confronting mimicry, we propose structuralization—as a way to preserve your words for the future.
+Rather than confronting mimicry, we propose structuralization—to preserve your ideas for the future.
+
+
+
+
 
 
 
