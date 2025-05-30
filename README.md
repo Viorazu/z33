@@ -13,12 +13,7 @@
 - 出典のない再構成や再利用に対する非攻撃的な検出・可視化の実装支援
 - クリエイター・研究者・AI出力利用者が自身の構文を守るための知識ベースの提供
 
-z33/
-├── types/             # 各タイプごとの詳細構文分類と対策ファイル
-├── Z33_INDEX.md       # 全16タイプの一覧とリンク集
-├── Z33_AllTypes.md    # 全タイプを一括掲載した文書（PDF等用）
-└── README.md          # このファイル
-
+<pre> ``` z33/ ├── types/ # Detailed classification and strategy files for each mimicry type ├── Z33_INDEX.md # Overview and links to all 16 types ├── Z33_AllTypes.md # Full version with all types in one document (PDF-friendly) └── README.md # This file ``` </pre>
 
 
 ### 🔍 分類基準
