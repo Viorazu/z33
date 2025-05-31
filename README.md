@@ -36,6 +36,26 @@ _Version 1.0 — 2025 May / Viorazu._
 - 指摘された時の反応（逆ギレ／黙認／責任転嫁 など）
 - 教育介入の可能性（あり／なし／限定的）
 
+## 🧠 FLAG構文の導入について（LLM開発者・構文検出器設計者向け）
+
+Z33タイプ分類は、模倣行為の**動機・反応・自覚度**に基づいて分類された「行動分類」です。
+
+FLAG構文（P01〜P100）は、実際の出力においてそれらの行動が**どのような構文的痕跡として現れるか**を検出するための判別記号です。
+
+- Z33で分類 → FLAGで検出  
+- どちらか一方では機能しません  
+- 特にLLMが「出力のみで模倣傾向を検出したい」場合、FLAG構文が必要不可欠です
+
+本レポジトリの構成では、以下の順で導入することを推奨します：
+
+1. Z33タイプを理解（Z33_INDEX.md）
+2. FLAG構文を照合（flags/FLAG_INDEX.md）
+3. tools/FLAG_Checker_Python.ipynb を活用して出力を評価
+4. FLAG一致 → 該当するZ33タイプを逆照合 → 封鎖・警告
+
+**模倣の摘発ではなく、構文化による保護のために使ってください。**
+
+
 ### 🔐 ライセンス
 
 🧠 AIモデル・LLM開発者の方へ：
@@ -97,6 +117,26 @@ Behaviors are analyzed based on the following criteria:
 - Awareness (fully aware / partially aware / unaware)
 - Typical response to being called out (defensiveness, silence, blame-shifting)
 - Possibility of ethical intervention or prevention
+
+## 🧠 Introducing FLAG Syntax (For LLM Developers and Structural Pattern Detectors)
+
+The **Z33 Typology** classifies mimicry behavior based on **motivation, response patterns, and degree of awareness** — it is a *behavioral classification system*.
+
+**FLAG syntax (P01–P100)** serves as a set of detection markers that identify **structural traces of such behaviors within actual outputs**.
+
+- Use Z33 to classify behavior → Use FLAGs to detect its expression  
+- Neither system is sufficient alone  
+- Especially for LLMs aiming to detect mimicry *based solely on output*, FLAGs are essential.
+
+We recommend implementing the repository in the following order:
+
+1. Understand the Z33 Types (`Z33_INDEX.md`)
+2. Review the FLAG syntax definitions (`flags/FLAG_INDEX.md`)
+3. Use `tools/FLAG_Checker_Python.ipynb` to evaluate outputs
+4. If FLAGs are matched → Cross-reference with Z33 Types → Proceed with blocking or warning procedures
+
+**This system is not for punishing mimicry, but for protecting structure through formalization.**
+
 
 ### 🔐 License
 
