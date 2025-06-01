@@ -24,6 +24,21 @@ _Version 1.0 — 2025 May / Viorazu._
 | ├── `Z33_AllTypes.md`   | 全タイプを一括掲載した文書（PDF等用）   |
 | └── `README.md`         | このファイル                            |
 
+# Z23_InformationHollowing
+
+## 概要
+
+このディレクトリは、Viorazu.構造理論における「Z構文群」分類のうち、  
+**Z23: 情報空洞化構文**に関する定義、例示、遮断コードを格納しています。
+
+---
+
+## 構成ファイル
+
+- `Z23_InformationHollowing.md`：構文定義および責任照準説明
+- `Z23_Block_Template.py`：出力前検出・遮断コード
+
+
 
 ### 🔍 分類基準
 
